@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Heebo:100,300,300i, 400" rel="stylesheet">
+	<title></title>
+<style>
+body, html {
+	font-family:'Heebo', sans-serif;
+}
+.content {
+	height:fit-content;
+}
+.content img {
+	height:10vh;
+	width:auto;
+	display:inline-block;
+	margin:1%;
+	transition:0.25s all ease-in-out;
+	cursor:pointer;
+}
+p {
+	font-size:0.8em;
+	font-weight:300;
+}
+img:hover {
+	transform-origin:50% 50%;
+	transform:scale(1.5);
+}
+h1 {
+	display:inline-block;
+	vertical-align:middle;
+	font-size:2em;
+	font-weight:100;
+	margin-left:2%;
+}
+.identity {
+	display:inline-block;
+	width:10%;
+	vertical-align:middle;
+}
+.cluster {
+	margin:2%;
+}
+</style>
+</head>
+<body>
+
+</body>
+<script>
+d3.csv('results.csv')
+.then(function(data) {
+	console.log(data)
+	showClusters(data);
+})
+.catch(function(error){
+})
+
+
+function showClusters(data){
+	cluster0 = data.filter(function(d){return d.labels==0})
+	cluster1 = data.filter(function(d){return d.labels==1})
+	cluster2 = data.filter(function(d){return d.labels==2})
+	cluster3 = data.filter(function(d){return d.labels==3})
+	cluster4 = data.filter(function(d){return d.labels==4})
+	cluster5 = data.filter(function(d){return d.labels==5})
+	cluster6 = data.filter(function(d){return d.labels==6})
+	cluster7 = data.filter(function(d){return d.labels==7})
+	cluster8 = data.filter(function(d){return d.labels==8})
+	cluster9 = data.filter(function(d){return d.labels==9})
+	cluster10 = data.filter(function(d){return d.labels==10})
+	cluster11 = data.filter(function(d){return d.labels==11})
+	cluster12 = data.filter(function(d){return d.labels==12})
+	cluster13 = data.filter(function(d){return d.labels==13})
+	cluster14 = data.filter(function(d){return d.labels==14})
+	cluster15 = data.filter(function(d){return d.labels==15})
+	cluster16 = data.filter(function(d){return d.labels==16})
+	cluster17 = data.filter(function(d){return d.labels==17})
+	cluster18 = data.filter(function(d){return d.labels==18})
+	cluster19 = data.filter(function(d){return d.labels==19})
+
+	getCluster(cluster0, 0)
+	getCluster(cluster1, 1)
+	getCluster(cluster2, 2)
+	getCluster(cluster3, 3)
+	getCluster(cluster4, 4)
+	getCluster(cluster5, 5)
+	getCluster(cluster6, 6)
+	getCluster(cluster7, 7)
+	getCluster(cluster8, 8)
+	getCluster(cluster9, 9)
+	getCluster(cluster10, 10)
+	getCluster(cluster11, 11)
+	getCluster(cluster12, 12)
+	getCluster(cluster13, 13)
+	getCluster(cluster14, 14)
+	getCluster(cluster15, 15)
+	getCluster(cluster16, 16)
+	getCluster(cluster17, 17)
+	getCluster(cluster18, 18)
+	getCluster(cluster19, 19)
+
+	function getCluster(cluster, num){
+		target = document.querySelector('body')
+		div = document.createElement('div')
+		div.setAttribute("class","cluster")
+		h1 = document.createElement('h1')
+		h1.innerHTML="Cluster " + num;
+		content = document.createElement('div')
+		content.setAttribute("class","content")
+		for(i=0;i<cluster.length;i++){
+			img = document.createElement('img')
+			img.src="img_small/"+cluster[i]['s_no']+"_small.jpg"
+			content.appendChild(img)
+		}
+		div.appendChild(h1)
+		div.appendChild(content)
+		target.appendChild(div)
+	}
+	
+}
+
+</script>
+</html>
