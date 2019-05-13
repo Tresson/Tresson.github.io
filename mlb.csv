@@ -1,0 +1,57 @@
+pos,rel,lit,child,word,freq,is_keyword
+CLUSTER1,Daughter,Can Read and Write,No Children,Agricultural Laborer,200,0
+CLUSTER1,Daughter,Cannot Read and Write,Has Children,Agricultural Laborer,4100,1
+CLUSTER1,Daughter,Can Read and Write,Has Children,Agricultural Laborer,300,0
+CLUSTER1,Daughter,Cannot Read and Write,No Children,Domestic Servant,600,0
+CLUSTER1,Daughter,Cannot Read and Write,No Children,Keeps House,1000,0
+CLUSTER1,Daughter,Cannot Read and Write,No Children,Laundress,100,0
+CLUSTER1,Daughter,Cannot Read and Write,No Children,Unemployed,200,0
+CLUSTER1,Daughter,Cannot Read and Write,No Children,Unknown,700,0
+CLUSTER1,Daughter,Cannot Read and Write,No Children,Unspecified Laborer,100,0
+CLUSTER1,Daughter-in-Law,Cannot Read and Write,Has Children,Unknown,200,0
+CLUSTER1,Head,Cannot Read and Write,No Children,Unspecified Laborer,100,0
+CLUSTER2,Daughter-in-Law,Cannot Read and Write,Has Children,Keeps House,200,0
+CLUSTER2,Head,Cannot Read and Write,Has Children,Agricultural Laborer,3400,0
+CLUSTER2,Head,Can Read and Write,Has Children,Agricultural Laborer,300,0
+CLUSTER2,Head,Cannot Read and Write,Has Children,Domestic Servant,2400,0
+CLUSTER2,Head,Can Read and Write,Has Children,Domestic Servant,200,0
+CLUSTER2,Head,Can Read and Write,Has Children,Huckster,100,0
+CLUSTER2,Head,Cannot Read and Write,Has Children,Keeps House,3800,1
+CLUSTER2,Head,Can Read and Write,Has Children,Keeps House,300,0
+CLUSTER2,Head,Cannot Read and Write,Has Children,Laundress,400,0
+CLUSTER2,Head,Cannot Read and Write,Has Children,Seamstress,100,0
+CLUSTER2,Lodger ,Cannot Read and Write,Has Children,Agricultural Laborer,1400,0
+CLUSTER2,Lodger ,Can Read and Write,Has Children,Agricultural Laborer,100,0
+CLUSTER3,Lodger ,Can Read and Write,No Children,Domestic Servant,300,0
+CLUSTER3,Lodger ,Cannot Read and Write,Has Children,Domestic Servant,3900,1
+CLUSTER3,Lodger ,Cannot Read and Write,No Children,employee of hotel,100,0
+CLUSTER3,Lodger ,Cannot Read and Write,Has Children,Keeping house,600,0
+CLUSTER3,Lodger ,Cannot Read and Write,Has Children,Seamstress,100,0
+CLUSTER3,Lodger ,Cannot Read and Write,No Children,Unemployed,100,0
+CLUSTER3,Lodger ,Cannot Read and Write,No Children,Unknown,200,0
+CLUSTER3,Mother,Cannot Read and Write,Has Children,Keeps House,100,0
+CLUSTER3,Mother ,Can Read and Write,Has Children,Unknown,100,0
+CLUSTER3,Mother-in-Law,Cannot Read and Write,Has Children,Domestic Servant,100,0
+CLUSTER4,Other Relative,Cannot Read and Write,Has Children,Agricultural Laborer,500,0
+CLUSTER4,Other Relative,Cannot Read and Write,No Children,Domestic Servant,100,0
+CLUSTER4,Other Relative,Cannot Read and Write,No Children,Laundress,100,0
+CLUSTER4,Sister,Cannot Read and Write,No Children,Agricultural Laborer,500,1
+CLUSTER4,Sister,Can Read and Write,Has Children,Agricultural Laborer,100,0
+CLUSTER4,Sister,Cannot Read and Write,Has Children,Domestic Servant,500,0
+CLUSTER4,Sister,Cannot Read and Write,No Children,Unspecified Laborer,100,0
+CLUSTER4,Sister-in-Law,Cannot Read and Write,Has Children,Agricultural Laborer,300,0
+CLUSTER5,Sister,Cannot Read and Write,Has Children,Keeps House,100,0
+CLUSTER5,Sister,Cannot Read and Write,No Children,Unknown,100,0
+CLUSTER5,Sister-in-Law,Cannot Read and Write,No Children,Other Nonoccupational Work,100,0
+CLUSTER5,Wife ,Cannot Read and Write,Has Children,Agricultural Laborer,15500,0
+CLUSTER5,Wife ,Can Read and Write,Has Children,Agricultural Laborer,600,0
+CLUSTER5,Wife ,Cannot Read and Write,Has Children,Domestic Servant,1800,0
+CLUSTER5,Wife ,Can Read and Write,Has Children,Domestic Servant,100,0
+CLUSTER5,Wife ,Cannot Read and Write,Has Children,Keeps House,29900,1
+CLUSTER5,Wife ,Can Read and Write,Has Children,Keeps House,1100,0
+CLUSTER5,Wife ,Cannot Read and Write,Has Children,Laundress,800,0
+CLUSTER5,Wife ,Can Read and Write,Has Children,Laundress,100,0
+CLUSTER5,Wife ,Cannot Read and Write,Has Children,Seamstress,400,0
+CLUSTER5,Wife ,Cannot Read and Write,Has Children,Unknown,1000,0
+CLUSTER5,Wife ,Can Read and Write,No Children,Unspecified Laborer,100,0
+CLUSTER5,Wife ,Cannot Read and Write,Has Children,Unspecified Laborer,200,0
