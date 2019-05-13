@@ -306,7 +306,7 @@ const POS_GLOSSARY = {
   'SPACE': 'space' };
 
 
-const WORD_DATA_FILE = 'data/mlb.csv';
+const WORD_DATA_FILE = 'mlb.csv';
 const KEYWORD_DATA_FILE = keyword_in_context;
 var PARTS_OF_SPEECH = ['CLUSTER1', 'CLUSTER2', 'CLUSTER3', 'CLUSTER4', 'CLUSTER5'];
 
